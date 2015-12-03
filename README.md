@@ -5,7 +5,9 @@ This package contains the three partitioned and formerly published source data s
 
 
 01_reconstruct_samples.sh	script to reconstruct the data samples
+
 02_compute_pma.sh		conduct exhausitive and naive model assignment
+
 03_compute_ml.sh		conduct maximum likelihood inference using naive and exhaustive PMA
 04_compute_rf.sh		compute the RF distances between the inferred trees
 05_evaluate.sh			summarize assignment differences and compute average rf-diastances (creates model_diffs.txt, summary.txt, and rf_dists.txt)
